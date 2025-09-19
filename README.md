@@ -201,13 +201,18 @@ python try_rmrb.py
 
 ---
 
-## 9. Monitoring Training
+## 9. Monitoring Training and problems to be solved
 
-* Training loss typically ranges **0 – 3** and is not a perfect quality metric.
-* Rough guideline:
+We need to determine the correct stopping point for training.
+
+* Training **loss alone is not sufficient** to represent model quality.
+* Acceptable loss range: **0 – 3**
 
   * Cohesive single-topic text → loss around **0.5**
-  * Mixed/noisy topics → loss may rise to **1–2+**
+  * Mixed/noisy topics → loss may rise to **1.x – 2.x**
+
+Use both quantitative metrics and qualitative evaluation (e.g., response quality) to decide when to end training.
+
 
 ---
 
@@ -216,4 +221,9 @@ python try_rmrb.py
 If models trained on different datasets give noticeably different answers to the **same query**, congratulations—you have successfully fine-tuned DeepSeek! 🎉
 
 ---
+
+
+
+
+
 
