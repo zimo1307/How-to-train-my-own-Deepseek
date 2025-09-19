@@ -3,8 +3,10 @@
 
 # How to Train My Own DeepSeek
 
-This repository documents the workflow for running and training **DeepSeek** models on the Princeton **Adroit** HPC cluster.
-
+This repository documents the workflow for running and training **DeepSeek** models on the Princeton **Adroit** HPC cluster. Please feel free to contact me at xz4513@nyu.edu
+ or zimoamireux@gmail.com
+ if you have any questions.
+ 
 > **Note**
 > All commands below use my student ID `xz4513` as an example.
 > Replace it with **your own NetID** when running.
@@ -215,4 +217,3 @@ If models trained on different datasets give noticeably different answers to the
 
 ---
 
-This README provides all key steps for running and customizing DeepSeek on Princeton’s Adroit cluster. Adjust IDs, file paths, and parameters as needed for your own environment.
